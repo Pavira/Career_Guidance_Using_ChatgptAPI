@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  background: url('images/career_output_background.png') center center/cover no-repeat;
+  display: flex;
+  justify-content: flex-end;
+  /* Align items to the right */
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.form-container {
+  background: rgba(255, 255, 255, 0.3);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+  border: 2px solid #007bff;
+  overflow-y: auto;
+  margin-right: 20px;
+  /* Add some margin to separate from the edge */
+}
+
+h1 {
+  color: #000000;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #000000;
+}
+
+textarea {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  resize: none;
+  height: 100px;
+  background: rgba(255, 255, 255, 0.3);
+}

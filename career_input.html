@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Guidance Input</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="form-container">
+        <h1>Choose Your Career</h1>
+        <form id="careerForm">
+            <label for="name">Name*</label><br>
+            <input type="text" id="name" name="name" required placeholder="Enter your name"><br><br>
+
+            <label for="age">Age*</label><br>
+            <input type="number" id="age" name="age" required><br><br>
+
+            <label for="hobbies">Hobbies*</label><br>
+            <input type="text" id="hobbies" name="hobbies" placeholder="ex-Playing basketball, Reading books, etc."
+                required><br><br>
+
+            <label for="skills">Skills or Strengths*</label><br>
+            <input type="text" id="skills" name="skills"
+                placeholder="ex-Critical thinking, Problem-solving, Networking, etc." required><br><br>
+
+            <label for="subject">Subject of Interest</label><br>
+            <input type="text" id="subject" name="subject"
+                placeholder="ex-Mathematics, Social Studies, English, etc."><br><br>
+
+            <label for="careerInterest">Career Interest*</label><br>
+            <select id="careerInterest" name="careerInterest">
+                <option value="" disabled selected>Select your option</option>
+                <option value="Engineering and Technology">Engineering and Technology</option>
+                <option value="Medical and Health Sciences">Medical and Health Sciences</option>
+                <option value="Arts and Humanities">Arts and Humanities</option>
+                <option value="Business and Management">Business and Management</option>
+                <option value="Law and Legal Studies">Law and Legal Studies</option>
+                <option value="Science and Research">Science and Research</option>
+                <option value="Information Technology and Computer Science">Information Technology and Computer Science
+                </option>
+                <option value="Design and Creative Arts">Design and Creative Arts</option>
+                <option value="Media and Communication">Media and Communication</option>
+                <option value="Social Services">Social Services</option>
+                <option value="Hospitality and Tourism">Hospitality and Tourism</option>
+                <option value="Education and Teaching">Education and Teaching</option>
+                <option value="Sports and Physical Education">Sports and Physical Education</option>
+                <option value="Agriculture and Environmental Studies">Agriculture and Environmental Studies</option>
+                <option value="Aviation and Aerospace">Aviation and Aerospace</option>
+                <option value="Defense and Security">Defense and Security</option>
+                <option value="Retail and E-commerce">Retail and E-commerce</option>
+                <option value="Real Estate">Real Estate</option>
+            </select><br><br>
+
+            <label for="certification">Any Specific Certification Completed</label><br>
+            <input type="text" id="certification" name="certification"
+                placeholder="ex- Olympiad, Coding Competitions, etc."><br><br>
+
+            <label for="goal">Goal/Designation/What You Want to Become</label><br>
+            <input type="text" id="goal" name="goal" placeholder="ex- Doctor, Lawyer, IAS, etc."><br><br>
+
+            <button type="button" onclick="submitForm()">Submit</button>
+        </form>
+    </div>
+
+    <script src="career_input.js"></script>
+</body>
+
+</html>
